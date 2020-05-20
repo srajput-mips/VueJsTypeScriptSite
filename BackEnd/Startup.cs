@@ -135,7 +135,7 @@ namespace BackEnd
                 services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
                 //register http services 
-                //commented as handling by injection for testing with facebook 
+                //commented as handling by injection for testing 
                 //.AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
                 // .AddPolicyHandler(GetRetryPolicy());
                 // .AddPolicyHandler(GetCircuitBreakerPolicy()); 
